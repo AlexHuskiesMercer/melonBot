@@ -1,0 +1,57 @@
+{
+    "commands": {
+        "_errors": {
+            "executionUnsuccessful": "There was an error executing the command: `%s`\n%s\nError File: %s from line %s",
+            "unknownCommandName": "I don't know that command, please consult the readme!"
+        },
+        "messageReaction": {
+            "_errors": {
+                "findOneMessageIDExist": "there is already a database entry associated with that messageID. Operation canceled, no changes have been made.",
+                "findOneMessageIDDoesNotExist": "there is no database entry associated with that messageID. Operation canceled, no changes have been made.",
+                "verifyMessageReactionsRole": "unable to find a role associated with that `@RoleMention`, `Role Name` or `Role ID`. Operation canceled, no changes have been made.",
+                "verifyMessageReactionsRoleDuplicate": "there is already a `@RoleMention`, `Role Name` or `Role ID` associated with one of the reaction options. Operation canceled, no changes have been made.",
+                "verifyMessageReactionsTimeout": "You did not respond in time! Operation canceled, no changes have been made.",
+                "messageContentFetch": "unable to find a message associated with that ID.",
+                "reactionListEmpty": "no reactions could be found on that message!"
+            },
+            "responses": {
+                "setMessageReactions": "What role is associated with this emoji? %s\n\nYou can specify a @RoleMention, Role ID or a Role Name `[Remember that the Role Name option must be exactly as is displayed]`\n\nIt is **recommend** that you use either @RoleMention or Role ID .\n\nIf you wish to cancel this, please type `cancel` at anytime!\n\n",
+                "verifyMessageReactionsCancel": "operation canceled, no changes have been made.",
+                "insertDbEntrySuccessful": "your entries have been logged and saved!",
+                "removeDbEntrySuccessful": "database entry for that message ID has been removed!"
+            }
+        }
+    },
+    "discord": {
+        "_errors": {
+            "messageUnsuccessful": "Unable to send message. Error File: %s from line %s",
+            "ReactUnsuccessful": "Unable to react to message. Error File: %s from line %s",
+            "embedUnsuccessful": "Unable to embed message. Error File: %s from line %s"
+        }
+    },
+    "utilities": {
+        "neDB": {
+            "_errors": {
+                "countUnsuccessful": "Unable to count from neDB. Error File: %s from line %s",
+                "findUnsuccessful": "Unable to find from neDB. Error File: %s from line %s",
+                "findOneUnsuccessful": "Unable to findOne from neDB. Error File: %s from line %s",
+                "insertUnsuccessful": "Unable to insert from neDB. Error File: %s from line %s",
+                "updateUnsuccessful": "Unable to update from neDB. Error File: %s from line %s",
+                "removeUnsuccessful": "Unable to remove from neDB. Error File: %s from line %s"
+            }
+        }
+    },
+    "events": {
+        "message": {
+            "_errors": {
+                "executionUnsuccessful": "there was an error executing that command!",
+                "argumentsRequired": "this command requires arguments!",
+                "invalidPermissions": "only administrators are allow to execute that command!"
+            }
+        },
+        "ready": {
+            "activityName": ["PLAYING with Gravity", "WATCHING Football in the engine room", "LISTENING Radio Comms", "PLAYING Chrome Offline mode", "PLAYING Minesweeper", "WATCHING Voice Channels"],
+            "successful": "%s successfully listening to %s users!"
+        }
+    }
+}

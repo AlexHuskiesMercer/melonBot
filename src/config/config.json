@@ -1,0 +1,9 @@
+{
+	"settings": {
+		"locale": "en"
+	},
+	"discord": {
+		"token": "DISCORD TOKEN HERE",
+		"prefix": "r$"
+	}
+}

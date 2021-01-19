@@ -1,0 +1,20 @@
+{
+  "name": "melonbot",
+  "version": "0.1.0",
+  "description": "Melons will take over the world, one day >:F",
+  "main": "./src/melonBot.js",
+  "scripts": {
+    "start": "node ./"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "author": "Alex Huskies",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.14.10",
+    "discord.js": "^12.5.0",
+    "nedb": "^1.8.0",
+    "winston": "^3.3.3"
+  }
+}
