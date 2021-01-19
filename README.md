@@ -46,5 +46,8 @@ Twitter: [@HuskiesxD](https://twitter.com/HuskiesxD)
 Github: [@AlexHuskiesMercer](https://github.com/AlexHuskiesMercer)
 Discord: [Huskies xD#6455](https://discord.com/users/213310816231882752)
 
+## **Big Thanks to**
+Discord: [Watermelon Man#0666](https://discord.com/users/656929712391585832)
+
 ## 📑 MIT Licensing
 MIT License. Copyright (c) 2021 Alex Huskies
