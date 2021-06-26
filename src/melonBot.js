@@ -1,5 +1,5 @@
 const {Client, Collection} = require('discord.js');
-const {discord} = require('./config/config');
+const {discord} = require(`${__dirname}/config/config`);
 const client = new Client({ partials: ["MESSAGE", "CHANNEL", "REACTION"] });
 const fs = require('fs');
 

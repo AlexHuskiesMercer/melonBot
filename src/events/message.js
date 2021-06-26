@@ -1,6 +1,7 @@
-const {discord} = require('../config/config');
-const intLang = require('../locale/language');
-const logger = require('../config/logger');
+const path = require('path');
+const logger = require(path.join(__dirname, '..', 'config', 'logger'));
+const intLang = require(path.join(__dirname, '..', 'locale', 'language'));
+const {discord} = require(path.join(__dirname, '..', 'config', 'config'));
 
 // Event Emittion
 module.exports = (client, message) => {

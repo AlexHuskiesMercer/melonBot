@@ -50,7 +50,7 @@
             }
         },
         "ready": {
-            "activityName": ["PLAYING with Gravity", "WATCHING Football in the engine room", "LISTENING Radio Comms", "PLAYING Chrome Offline mode", "PLAYING Minesweeper", "WATCHING Voice Channels"],
+            "activityName": ["PLAYING with Roles", "WATCHING reactions in the server", "LISTENING to the channels", "PLAYING Chrome Offline mode", "PLAYING Minesweeper", "WATCHING Voice Channels"],
             "successful": "%s successfully listening to %s users!"
         }
     }
